@@ -19,8 +19,6 @@ addons:
     packages:
     - libgnome-keyring-dev
     - icnsutils
-before_install:
-- npm i -g npm@6.0.0
 install:
 - nvm install 7
 - curl -o- -L https://yarnpkg.com/install.sh | bash
